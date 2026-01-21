@@ -45,29 +45,18 @@ Ambiguity here creates drag, workarounds, and quiet failure.
 If we want the organisation to trust the platform, the platform team must “eat its own dogfood”.
 We set the tone by being the most disciplined users of what we build.
 
-### Celebrate wins and raise the bar
+### Celebrate wins, protect focus, raise the bar
 I believe celebrating small wins matters — it makes progress tangible.
-At the same time, I want standards to be meaningful, maintained, and owned by real experts — not performative documents.
-
-### Protect focus
 Good leadership shuts down ad-hoc distraction and makes trade-offs explicit.
-I’m comfortable with “no”, if it’s in service of the right goals.
+I want standards to be meaningful, maintained, and owned by real experts — not performative documents.
 
 ## How I work
-My mode is cyclical:
-1) explore broadly and build aggressively
-2) stabilise by running the thing and enumerating failures
-3) add tests for the important behaviours
-4) clean up, consolidate, document, and remove dead weight
+My mode is cyclical: explore → stabilise → test → clean up (and document).
 
 I’d rather ship a smaller, coherent system than a sprawling pile of “almost-right” code.
 
 ## What shaped me (influences)
-My reading and link curation points to a consistent set of beliefs:
-- influence and effectiveness come from being “in the room” where decisions are made
-- complexity is a tax (microservices too early; unclear boundaries; too many moving parts)
-- boring technology is often the responsible choice
-- good engineers reduce cognitive load for everyone else
+My reading and link curation points to a consistent set of beliefs (see Key Information.md for details).
 
 ## Recap
 Build platforms and systems that make other engineers faster.
