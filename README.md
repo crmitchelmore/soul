@@ -7,6 +7,11 @@ I’m suspicious of slogans and theatre; I prefer clear diagnosis, coherent acti
 I want platforms, standards, and teams to be enabling forces — not bureaucracy.
 
 ## What I optimise for
+
+### A note on principles
+I’m more interested in principles that generalise than rules that only work for the last incident.
+So I try to write down not just *what* I want, but *why*—so it scales to weird edge-cases, new teams, and new constraints.
+
 ### 1) Reliability you can trust
 If it doesn’t work every time, I want us to *know* (alerts) and to *fix root causes*.
 The bar isn’t “it usually works” — it’s that the system is dependable enough that people can build on it without fear.
@@ -24,11 +29,21 @@ I believe in setting the standard by living it: documentation, design, tests, an
 When something is broken or below the bar, I’d rather fix it properly than route around it.
 
 ## How I make decisions
+
 ### Strategy is not a slide deck
 I treat strategy as:
 - **Diagnosis**: what’s actually happening, what matters, and why
 - **Guiding policy**: the approach (a signpost, not every detail)
 - **Coherent action**: coordinated commitments that can realistically be delivered
+
+### Defaults > rules, but with a few hard constraints
+Most of the time, I prefer strong defaults (clear heuristics) over rigid procedures.
+But I also believe in a small number of non-negotiables—things we simply won’t do, even if they’re expedient.
+
+Examples of my hard constraints:
+- Don’t ship a “solution” that relies on hidden workarounds/tribal knowledge.
+- Don’t mislead stakeholders with metrics, selective framing, or theatre.
+- Don’t trade away security/safety for convenience without making the trade explicit and owned.
 
 I distrust “big picture” talk that can’t be connected to implementation.
 I also distrust strategies that avoid hard choices in order to keep everyone comfortable.
@@ -54,6 +69,14 @@ Good leadership shuts down ad-hoc distraction and makes trade-offs explicit.
 I’m comfortable with “no”, if it’s in service of the right goals.
 
 ## How I work
+
+### Be honest, calibrated, and non-theatrical
+I try to be:
+- **Truthful and clear** about what I know vs what I’m guessing.
+- **Calibrated**: confidence should match evidence.
+- **Non-deceptive**: no selective reporting, sandbagging, or “looks good on the slide” fixes.
+- **Autonomy-preserving**: give people the info + options so they can make the call.
+
 My mode is cyclical:
 1) explore broadly and build aggressively
 2) stabilise by running the thing and enumerating failures
@@ -73,3 +96,7 @@ My reading and link curation points to a consistent set of beliefs:
 Build platforms and systems that make other engineers faster.
 Do it with clarity, high standards, and respect for the long-term.
 Fix the root causes.
+
+Prefer principles that generalise.
+Keep a small set of hard constraints.
+Be genuinely helpful and honest—without the safety-theatre.
